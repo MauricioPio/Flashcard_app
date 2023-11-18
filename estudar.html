@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudar</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="add_carta">
+            <a href="index.html">
+                <span class="ADD">Adicionar carta</span>
+                <span class="cruz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgb(255, 255, 255);transform: msFilter">
+                        <path d="M15 2.013H9V9H2v6h7v6.987h6V15h7V9h-7z"></path>
+                    </svg></span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="front">
+                <p id="frente"></p>
+                <div class="borda_front"></div>
+                <button type="submit" class="botao_front">Mostar resposta 📝</button>
+                <div class="borda"></div>
+            </div>
+            <div class="back">
+                <p id="verso"></p>
+                <div class="borda_back"></div>
+                <div class="botao_back_wrap">
+                    <button type="submit" id="acertei" class="botao_back">Acertei 😃</button>
+                    <button type="submit" id="errei" class="botao_back">Errei 😥</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
